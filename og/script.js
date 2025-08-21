@@ -69,14 +69,62 @@
 // 2 - '1' + '9'
 // '6'-'3'
 
-let test = 4;
-console.log("the value of the test is:" + test + "!");
+// let test = 4;
+// console.log("the value of the test is:" + test + "!");
 
-let a,b,c;
-a='4512585'
-b='false'
-c=true
-console.log(typeof(string(c)))
-console.log(typeof(boolean(b)))
-console.log(typeof(number(a)))
+// let a,b,c;
+// a='4512585'
+// b='false'
+// c=true
+// console.log(typeof(String(c)))
+// console.log(typeof(Boolean(b)))
+// console.log(typeof(Number(a)))
 
+//using pi
+// let number = (Math.PI)
+// number *= 20
+// console.log(number)
+
+
+let theNumber = Number(prompt("Enter number"))
+    console.log(theNumber)
+let theNumber2 = theNumber + 2
+theNumber2 *= 4
+console.log(theNumber2)
+
+
+
+//  alert("Enter numbers to find the cosine of")
+// let number1 = prompt("Adjacent number")
+// let number2 = prompt("Hypotenuse number")
+// angle = number1 / number2
+// console.log(angle)
+
+//  let Patrick = prompt("Enter number to round")
+//  Math.floor(Patrick)
+//  console.log(Patrick)
+
+//  let vandal = Number(prompt("Enter number to round"))
+//  Math.round(vandal)
+//  console.log(vandal)
+
+//  let word = prompt("enter number")
+//   Math.sign(word)
+//   console.log(word)
+
+//  let x =Math.sign(-4)
+//  console.log(x)
+
+//  let words = Math.E
+//  console.log(words)
+
+// let speed = Number(prompt("Enter a Speed (mph)"))
+// let time = Number(prompt("Enter time (hrs)"))
+// console.log(typeof(speed))
+// let distance = speed*time
+// console.log("Distance traveled: " +distance + " miles.")
+
+// let a = Number(prompt("Enter the 'a' value"))
+// let b = Number(prompt("Enter the 'b' value"))
+// let c = Math.sqrt((a**2) + (b**2))
+// console.log(c)
