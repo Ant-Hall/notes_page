@@ -86,45 +86,111 @@
 // console.log(number)
 
 
-let theNumber = Number(prompt("Enter number"))
-    console.log(theNumber)
-let theNumber2 = theNumber + 2
-theNumber2 *= 4
-console.log(theNumber2)
+// let theNumber = Number(prompt("Enter number"))
+//     console.log(theNumber)
+// let theNumber2 = theNumber + 2
+// theNumber2 *= 4
+// console.log(theNumber2)
 
 
 
-//  alert("Enter numbers to find the cosine of")
-// let number1 = prompt("Adjacent number")
-// let number2 = prompt("Hypotenuse number")
-// angle = number1 / number2
-// console.log(angle)
+// //  alert("Enter numbers to find the cosine of")
+// // let number1 = prompt("Adjacent number")
+// // let number2 = prompt("Hypotenuse number")
+// // angle = number1 / number2
+// // console.log(angle)
 
-//  let Patrick = prompt("Enter number to round")
-//  Math.floor(Patrick)
-//  console.log(Patrick)
+// //  let Patrick = prompt("Enter number to round")
+// //  Math.floor(Patrick)
+// //  console.log(Patrick)
 
-//  let vandal = Number(prompt("Enter number to round"))
-//  Math.round(vandal)
-//  console.log(vandal)
+// //  let vandal = Number(prompt("Enter number to round"))
+// //  Math.round(vandal)
+// //  console.log(vandal)
 
-//  let word = prompt("enter number")
-//   Math.sign(word)
-//   console.log(word)
+// //  let word = prompt("enter number")
+// //   Math.sign(word)
+// //   console.log(word)
 
-//  let x =Math.sign(-4)
-//  console.log(x)
+// //  let x =Math.sign(-4)
+// //  console.log(x)
 
-//  let words = Math.E
-//  console.log(words)
+// //  let words = Math.E
+// //  console.log(words)
 
-// let speed = Number(prompt("Enter a Speed (mph)"))
-// let time = Number(prompt("Enter time (hrs)"))
-// console.log(typeof(speed))
-// let distance = speed*time
-// console.log("Distance traveled: " +distance + " miles.")
+//  let speed = Number(prompt("Enter a Speed (mph)"))
+//  let time = Number(prompt("Enter time (hrs)"))
+//  console.log(typeof(speed))
+//  let distance = speed*time
+//  console.log("Distance traveled: " +distance + " miles.")
 
-// let a = Number(prompt("Enter the 'a' value"))
-// let b = Number(prompt("Enter the 'b' value"))
-// let c = Math.sqrt((a**2) + (b**2))
-// console.log(c)
+// // let a = Number(prompt("Enter the 'a' value"))
+// // let b = Number(prompt("Enter the 'b' value"))
+// // let c = Math.sqrt((a**2) + (b**2))
+// // console.log(c)
+ 
+// let testBacktick = `Lorem,
+// ipsum dolor sit amet consectetur ${distance} adipisicing elit.
+//     Doloribus commodi dolorem maiores nostrum,
+// omnis corrupti odit magni,
+//     dolores incidunt ipsam voluptas repudiandae,
+// est distinctio? 
+//     Deserunt modi excepturi magnam beatae iste!`
+// console.log(testBacktick)
+
+// let input1 = Number(prompt("Enter a number"))
+// let input2 = prompt("Enter an object")
+// console.log(`Comparing ${input1} ( ${typeof(input1)} ) and ${input2} ( ${typeof(input2)}`)
+// console.log(`When compared with == it is ${input1 == input2}`);
+// console.log(`When compared with === it is ${input1 === input2}`);
+// console.log(`When compared with Object.is, it is ${Object.is(input1,input2)}`);
+
+/* CONDITION STATEMENTS --> If statement
+Conditions often use comparison operators like > greater than, < less than, == equal to, ! not equal to,
+>= greater than equal to, and <= less than equal to.
+
+The condition inside the parentesis must evaljuate to a nboolean value-either true or fase\\
+*/
+
+// let tempurature = 25;
+
+// if (tempurature > 20) {
+//     console.log("It's a warm day")
+// }
+
+// let userIsLoggedIn = false;
+// if (userIsLoggedIn) {
+//     console.log("Welcome Back!")
+// }else{
+//     console.log("Please log in to continue.");
+// }
+
+// let score = 60;
+
+// if (score >= 90){
+//     console.log("You got an A!");
+// } else if (score >= 80){
+//     console.log("You got a B.");
+// } else if (score >= 70){
+//     console.log("You got a C.");
+// } else if (score < 70){
+//     console.log("You need to study more.");
+// } else {
+//     console.log("<>.<>")
+// }
+
+// let isStudent = true
+// let isSenior = false
+// let price = 10
+
+// if (isStudent = true){
+//     price = 8
+//     console.log(`Price is ${price}.`);
+// } else if (isStudent = false){
+//     console.log(`Price is ${price}.`);
+// } else if (isSenior = true){
+//     price = 8
+//     console.log(`Price is ${price}.`);
+// }else if (isSenior = false){
+//     console.log(`Price is ${price}.`);
+// }
