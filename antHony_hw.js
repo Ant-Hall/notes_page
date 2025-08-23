@@ -130,8 +130,8 @@ console.log('')
 Passage = Boolean(confirm("Are you over 18?"))
 
 if (Passage = true){
-    console.log("Welcome aboard!")
+    alert("Welcome aboard!")
 }
 if (Passage = false){
-    console.log("You must be 18 or older to proceed.")
+    alert("You must be 18 or older to proceed.")
 }
