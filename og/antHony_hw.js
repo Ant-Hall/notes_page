@@ -64,3 +64,23 @@ let remainder = a % b
 let aPowerB = a**b
     console.log(`a to the power of b is ${aPowerB}.`)
 
+console.log("3. Data Types")
+console.log('')
+
+myString = ("stringvalue")
+    console.log(typeof(myString))
+myNumber = (4)
+    console.log(typeof(myNumber))
+myBoolean = (true)
+    console.log(typeof(myBoolean))
+
+console.log("4. Type Conversion")
+console.log('')
+
+stringNumber = ("42")
+actualNumber = Number(stringNumber)
+    console.log(actualNumber)
+numberString = (100)
+actualString = String(numberstring)
+    console.log(actualString)
+
