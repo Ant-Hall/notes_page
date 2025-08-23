@@ -73,6 +73,8 @@ let remainder = a % b
 
 let aPowerB = a**b
     console.log(`a to the power of b is ${aPowerB}.`)
+    console.log('')
+
 
 console.log("3. Data Types")
 console.log('')
@@ -85,6 +87,7 @@ myNumber = (4)
 
 myBoolean = (true)
     console.log(typeof(myBoolean))
+    console.log('')
 
 
 console.log("4. Type Conversion")
@@ -97,6 +100,8 @@ actualNumber = Number(stringNumber)
 numberString = (100)
 actualString = String(numberString)
     console.log(actualString)
+    console.log('')
+
 
 console.log("Part 2 : Interactive Prompts and Logic")
 console.log('')
@@ -109,16 +114,18 @@ let usersName = prompt("What is your name?")
 
 let usersAge = Number(prompt("What is your age?"))
     console.log(usersAge)
+    console.log('')
+
 
 console.log("2. Comparison :")
 console.log('')
 
 if (usersAge == 21){
-    console.log(true)
+    console.log("21 is the value.")
 }
 
 if (usersAge === 21){
-    console.log(true)
+    console.log("21 is the value and the number.")
 }
 
 /*These may produce different results because '==' checks if the value is the 
@@ -127,7 +134,7 @@ same but ignores the data type, while '===' checks the value and data type*/
 console.log("3. Confirmation and Alerts :")
 console.log('')
 
-Passage = Boolean(confirm("Are you over 18?"))
+Passage = confirm("Are you over 18?")
 
 if (Passage = true){
     alert("Welcome aboard!")
