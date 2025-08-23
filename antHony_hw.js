@@ -142,3 +142,8 @@ if (Passage = true){
 else {
     alert("You must be 18 or older to proceed.")
 }
+
+/*Whether I convert it to a Boolean or not, it does not seem to output a true/false
+and becomes true anyways. I could not find how to resolve this online, as it seemed 
+everything was saying OK would output true and Cancel would output false. The mdn_
+says that if a browser is ignoring them it would output false?*/
