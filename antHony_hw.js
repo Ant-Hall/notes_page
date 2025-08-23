@@ -95,7 +95,7 @@ actualNumber = Number(stringNumber)
     console.log(actualNumber)
 
 numberString = (100)
-actualString = String(numberstring)
+actualString = String(numberString)
     console.log(actualString)
 
 console.log("Part 2 : Interactive Prompts and Logic")
