@@ -139,6 +139,6 @@ Passage = Boolean(confirm("Are you over 18?"))
 if (Passage = true){
     alert("Welcome aboard!")
 }
-if (Passage = false){
+else {
     alert("You must be 18 or older to proceed.")
 }
