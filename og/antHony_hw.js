@@ -37,10 +37,19 @@ const _Today = ("Tuesday, and it will always be that way.")
 
 
 var numberOfNuggets = (54)
-var banan = ("taste.")
+    console.log(`We have ${numberOfNuggets} nuggets.`)
+
+var banan = ("taste!")
+    console.log(`Bannanas ${banan}`)
+
 var $sSnakes = (8)
-var _Hats = (12)
-var Puppiessongrefrence = ("Too many")
+    console.log(`There are ${$sSnakes} snakes.`)
+
+var Hats = (12)
+    console.log(`There are ${Hats} hats.`)
+
+var _4 = ("kittens.")
+    console.log(`There are four little ${_4}`)
 
 console.log('')
 
@@ -52,6 +61,7 @@ let a = 4
 
 let b = 7
     console.log(`b equals ${b}.`)
+
 let sum = a + b
     console.log(`a plus b equals ${sum}.`)
 
@@ -69,10 +79,13 @@ console.log('')
 
 myString = ("stringvalue")
     console.log(typeof(myString))
+
 myNumber = (4)
     console.log(typeof(myNumber))
+
 myBoolean = (true)
     console.log(typeof(myBoolean))
+
 
 console.log("4. Type Conversion")
 console.log('')
@@ -80,7 +93,45 @@ console.log('')
 stringNumber = ("42")
 actualNumber = Number(stringNumber)
     console.log(actualNumber)
+
 numberString = (100)
 actualString = String(numberstring)
     console.log(actualString)
 
+console.log("Part 2 : Interactive Prompts and Logic")
+console.log('')
+
+console.log("1. User Input :")
+console.log('')
+
+let usersName = prompt("What is your name?")
+    console.log(usersName)
+
+let usersAge = Number(prompt("What is your age?"))
+    console.log(usersAge)
+
+console.log("2. Comparison :")
+console.log('')
+
+if (usersAge == 21){
+    console.log(true)
+}
+
+if (usersAge === 21){
+    console.log(true)
+}
+
+/*These may produce different results because '==' checks if the value is the 
+same but ignores the data type, while '===' checks the value and data type*/
+
+console.log("3. Confirmation and Alerts :")
+console.log('')
+
+Passage = Boolean(confirm("Are you over 18?"))
+
+if (Passage = true){
+    console.log("Welcome aboard!")
+}
+if (Passage = false){
+    console.log("You must be 18 or older to proceed.")
+}
