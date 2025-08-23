@@ -134,7 +134,7 @@ same but ignores the data type, while '===' checks the value and data type*/
 console.log("3. Confirmation and Alerts :")
 console.log('')
 
-Passage = Boolean(confirm("Are you over 18?"))
+Passage = confirm("Are you over 18?")
 
 if (Passage = true){
     alert("Welcome aboard!")
