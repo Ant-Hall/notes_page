@@ -14,16 +14,16 @@ action = prompt("You encounter a dragon, do you want to fight or to run?")
         if(health == 0) {
             alert("You died!")}
         else { 
-        alert("You attack the Dragon")
-        dragonHealth = dragonHealth - baseDamage}
-        
-     
-     
-     
-     
+        alert("You attack the Dragon!")
+        dragonHealth = dragonHealth - baseDamage
+            dragonDamage = Math.floor(Math.random() * 50)
+            health = health - dragonDamage
+            alert(`The dragon attacked you and you took ${dragonDamage} damage, your health is now ${health}`)
+            if(health == 0) {
+            alert("You died!")}
     
-    
-    
+    }
+
     }
     if (action == run){
     alert("You ran away")
