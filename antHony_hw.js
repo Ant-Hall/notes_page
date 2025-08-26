@@ -1,149 +1,149 @@
-console.log("Part 1 : Variables and Data Types")
-console.log('')
+// console.log("Part 1 : Variables and Data Types")
+// console.log('')
 
-console.log("1. Variable Naming :")
-console.log('')
+// console.log("1. Variable Naming :")
+// console.log('')
 
-let appleSause = ("spelled wrong.")
-    console.log(`Apple sause is ${appleSause}`)
+// let appleSause = ("spelled wrong.")
+//     console.log(`Apple sause is ${appleSause}`)
 
-let appleSauce = ("tasty!")
-    console.log(`Apple sauce is ${appleSauce}`)
+// let appleSauce = ("tasty!")
+//     console.log(`Apple sauce is ${appleSauce}`)
 
-let $money = ("!$$$!")
-    console.log(`${$money}`)
+// let $money = ("!$$$!")
+//     console.log(`${$money}`)
 
-let _thefloor = ("carpeted.")
-    console.log(`The floor is ${_thefloor}`)
+// let _thefloor = ("carpeted.")
+//     console.log(`The floor is ${_thefloor}`)
 
-let cheeze = ("be spelled with a z")
-    console.log(`Cheese cannot ${cheeze}`)
-
-
-const gas = ("smelly...")
-    console.log(`Gas is ${gas}`)
-
-const bird = ("word!")
-    console.log(`Bird is the ${bird}`)
-
-const Earth = ("round.")
-    console.log(`The Earth is ${Earth}`)
-
-const permaFrost = ("permanently frosty.")
-    console.log(`Perma Frost is ${permaFrost}`)
-
-const _Today = ("Tuesday, and it will always be that way.")
-    console.log(`Today is ${_Today}`)
+// let cheeze = ("be spelled with a z")
+//     console.log(`Cheese cannot ${cheeze}`)
 
 
-var numberOfNuggets = (54)
-    console.log(`We have ${numberOfNuggets} nuggets.`)
+// const gas = ("smelly...")
+//     console.log(`Gas is ${gas}`)
 
-var banan = ("taste!")
-    console.log(`Bannanas ${banan}`)
+// const bird = ("word!")
+//     console.log(`Bird is the ${bird}`)
 
-var $sSnakes = (8)
-    console.log(`There are ${$sSnakes} snakes.`)
+// const Earth = ("round.")
+//     console.log(`The Earth is ${Earth}`)
 
-var Hats = (12)
-    console.log(`There are ${Hats} hats.`)
+// const permaFrost = ("permanently frosty.")
+//     console.log(`Perma Frost is ${permaFrost}`)
 
-var _4 = ("kittens.")
-    console.log(`There are four little ${_4}`)
-
-console.log('')
-
-console.log("2. Operators :")
-console.log('')
-
-let a = 4
-    console.log(`a equals ${a}.`)
-
-let b = 7
-    console.log(`b equals ${b}.`)
-
-let sum = a + b
-    console.log(`a plus b equals ${sum}.`)
-
-let product = a * b
-    console.log(`The product of a and b is ${product}.`)
-
-let remainder = a % b
-    console.log(`When a is divided by b, ${remainder} is the remainder.`)
-
-let aPowerB = a**b
-    console.log(`a to the power of b is ${aPowerB}.`)
-    console.log('')
+// const _Today = ("Tuesday, and it will always be that way.")
+//     console.log(`Today is ${_Today}`)
 
 
-console.log("3. Data Types")
-console.log('')
+// var numberOfNuggets = (54)
+//     console.log(`We have ${numberOfNuggets} nuggets.`)
 
-myString = ("stringvalue")
-    console.log(typeof(myString))
+// var banan = ("taste!")
+//     console.log(`Bannanas ${banan}`)
 
-myNumber = (4)
-    console.log(typeof(myNumber))
+// var $sSnakes = (8)
+//     console.log(`There are ${$sSnakes} snakes.`)
 
-myBoolean = (true)
-    console.log(typeof(myBoolean))
-    console.log('')
+// var Hats = (12)
+//     console.log(`There are ${Hats} hats.`)
+
+// var _4 = ("kittens.")
+//     console.log(`There are four little ${_4}`)
+
+// console.log('')
+
+// console.log("2. Operators :")
+// console.log('')
+
+// let a = 4
+//     console.log(`a equals ${a}.`)
+
+// let b = 7
+//     console.log(`b equals ${b}.`)
+
+// let sum = a + b
+//     console.log(`a plus b equals ${sum}.`)
+
+// let product = a * b
+//     console.log(`The product of a and b is ${product}.`)
+
+// let remainder = a % b
+//     console.log(`When a is divided by b, ${remainder} is the remainder.`)
+
+// let aPowerB = a**b
+//     console.log(`a to the power of b is ${aPowerB}.`)
+//     console.log('')
 
 
-console.log("4. Type Conversion")
-console.log('')
+// console.log("3. Data Types")
+// console.log('')
 
-stringNumber = ("42")
-actualNumber = Number(stringNumber)
-    console.log(actualNumber)
+// myString = ("stringvalue")
+//     console.log(typeof(myString))
 
-numberString = (100)
-actualString = String(numberString)
-    console.log(actualString)
-    console.log('')
+// myNumber = (4)
+//     console.log(typeof(myNumber))
 
-
-console.log("Part 2 : Interactive Prompts and Logic")
-console.log('')
-
-console.log("1. User Input :")
-console.log('')
-
-let usersName = prompt("What is your name?")
-    console.log(usersName)
-
-let usersAge = Number(prompt("What is your age?"))
-    console.log(usersAge)
-    console.log('')
+// myBoolean = (true)
+//     console.log(typeof(myBoolean))
+//     console.log('')
 
 
-console.log("2. Comparison :")
-console.log('')
+// console.log("4. Type Conversion")
+// console.log('')
 
-if (usersAge == 21){
-    console.log("21 is the value.")
-}
+// stringNumber = ("42")
+// actualNumber = Number(stringNumber)
+//     console.log(actualNumber)
 
-if (usersAge === 21){
-    console.log("21 is the value and the number.")
-}
+// numberString = (100)
+// actualString = String(numberString)
+//     console.log(actualString)
+//     console.log('')
 
-/*These may produce different results because '==' checks if the value is the 
-same but ignores the data type, while '===' checks the value and data type*/
 
-console.log("3. Confirmation and Alerts :")
-console.log('')
+// console.log("Part 2 : Interactive Prompts and Logic")
+// console.log('')
 
-Passage = confirm("Are you over 18?")
+// console.log("1. User Input :")
+// console.log('')
 
-if (Passage = true){
-    alert("Welcome aboard!")
-}
-else {
-    alert("You must be 18 or older to proceed.")
-}
+// let usersName = prompt("What is your name?")
+//     console.log(usersName)
 
-/*Whether I convert it to a Boolean or not, it does not seem to output a true/false
-and becomes true anyways. I could not find how to resolve this online, as it seemed 
-everything was saying OK would output true and Cancel would output false. The mdn_
-says that if a browser is ignoring them it would output false?*/
+// let usersAge = Number(prompt("What is your age?"))
+//     console.log(usersAge)
+//     console.log('')
+
+
+// console.log("2. Comparison :")
+// console.log('')
+
+// if (usersAge == 21){
+//     console.log("21 is the value.")
+// }
+
+// if (usersAge === 21){
+//     console.log("21 is the value and the number.")
+// }
+
+// /*These may produce different results because '==' checks if the value is the 
+// same but ignores the data type, while '===' checks the value and data type*/
+
+// console.log("3. Confirmation and Alerts :")
+// console.log('')
+
+// Passage = confirm("Are you over 18?")
+
+// if (Passage = true){
+//     alert("Welcome aboard!")
+// }
+// else {
+//     alert("You must be 18 or older to proceed.")
+// }
+
+// /*Whether I convert it to a Boolean or not, it does not seem to output a true/false
+// and becomes true anyways. I could not find how to resolve this online, as it seemed 
+// everything was saying OK would output true and Cancel would output false. The mdn_
+// says that if a browser is ignoring them it would output false?*/
