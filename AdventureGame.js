@@ -5,7 +5,7 @@ let baseDamage = 25
 
 alert(`Welcome, ${characterName} the ${characterClass}! You have ${health} health and your base damage is ${baseDamage}.`)
 
-let dragonHealth = 300
+let dragonHealth = 200
 action = prompt("You encounter a dragon, do you want to fight or to run?")
     if (action == fight){
     let dragonDamage = Math.floor(Math.random() * 50) 
@@ -14,14 +14,55 @@ action = prompt("You encounter a dragon, do you want to fight or to run?")
         if(health == 0) {
             alert("You died!")}
         else { 
-        alert("You attack the Dragon!")
-        dragonHealth = dragonHealth - baseDamage
+            alert("You attack the Dragon!")
+            dragonHealth = dragonHealth - baseDamage
+            alert(`The dragon's health is now ${dragonHealth}!`)
             dragonDamage = Math.floor(Math.random() * 50)
             health = health - dragonDamage
             alert(`The dragon attacked you and you took ${dragonDamage} damage, your health is now ${health}`)
+
             if(health == 0) {
-            alert("You died!")}
-    
+                alert("You died!")}
+            else {
+                alert("You attack the Dragon!")
+                dragonHealth = dragonHealth - baseDamage
+                alert(`The dragon's health is now ${dragonHealth}!`)
+                dragonDamage = Math.floor(Math.random() * 50)
+                health = health - dragonDamage
+                alert(`The dragon attacked you and you took ${dragonDamage} damage, your health is now ${health}`)
+                if(health == 0) {
+                    alert("You died!")}
+                else {
+                    alert("You attack the Dragon!")
+                    dragonHealth = dragonHealth - baseDamage
+                    alert(`The dragon's health is now ${dragonHealth}!`)
+                    dragonDamage = Math.floor(Math.random() * 50)
+                    health = health - dragonDamage
+                    alert(`The dragon attacked you and you took ${dragonDamage} damage, your health is now ${health}`)
+                    if(health == 0) {
+                        alert("You died!")}
+                        else {
+                        alert("You attack the Dragon!")
+                        dragonHealth = dragonHealth - baseDamage
+                        alert(`The dragon's health is now ${dragonHealth}!`)
+                        dragonDamage = Math.floor(Math.random() * 50)
+                        health = health - dragonDamage
+                        alert(`The dragon attacked you and you took ${dragonDamage} damage, your health is now ${health}`)
+                        if(health == 0) {
+                            alert("You died!")}
+                        else {
+                    alert("You attack the Dragon!")
+                    dragonHealth = dragonHealth - baseDamage
+                    alert(`The dragon's health is now ${dragonHealth}!`)
+                    dragonDamage = Math.floor(Math.random() * 50)
+                    health = health - dragonDamage
+                    alert(`The dragon attacked you and you took ${dragonDamage} damage, your health is now ${health}`)
+                    if(health == 0) {
+                        alert("You died!")}
+                    }
+                    }
+            }
+            }
     }
 
     }
@@ -29,7 +70,8 @@ action = prompt("You encounter a dragon, do you want to fight or to run?")
     alert("You ran away")
     }
     else{
-        alert("The dragon gets confused and flies away, you get knocked back and take 15 damage.") , health = health - 15
+        alert("The dragon gets confused and flies away, you get knocked back and take 15 damage.") , health = health - 15 
+        alert(`Your health is now ${health}`)
     }
 
 
