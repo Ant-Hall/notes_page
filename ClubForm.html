@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oyster Crackers Club</title>
+    <link rel="stylesheet" href="ClubForm.css">
+</head>
+<main>
+<body style="background-color: rgb(184, 103, 11);">
+    <form action="method">
+        <h1 style="color: white;">Oyster Crackers Club</h1>
+            <h4 style="color: white;">A club about Oyster Crackers and Soup</h4>
+            <img src="https://tinyurl.com/5n6as6y7" alt="Tasty soup with Oyster Crackers" height="400" width="650">
+        <hr>
+
+        <h1 style="color: white;">Required Fields</h1>
+        <section>
+            <h2></h2>
+            <fieldset>
+                <legend style="color: white;">What is your <strong>favourite</strong>
+                 kind of soup to put Oyster Crackers in? <strong><abbr title="required">*</abbr></strong></legend>
+                <!--soup is important to this club-->
+                <h6 style="color: white;"><em>(only choose one)</em></h6>
+                <ul style="list-style-type:none;">
+                    <li><label style="color: white;"><input type="radio" name="Soups">Chicken Noodle Soup</label></li>
+                    <li><label style="color: white;"><input type="radio" name="Soups">Tomato Soup</label></li>
+                    <li><label style="color: white;"><input type="radio" name="Soups">French Onion Soup</label></li>
+                    <li><label style="color: white;"><input type="radio" name="Soups">Clam Chowder</label></li>
+                    <li><label style="color: white;"><input type="radio" name="Soups">Broccoli Cheddar Soup</label></li>
+                    <li><label style="color: white;"><input type="radio" name="Soups">Butternut Squash Soup</label></li>
+                    <li><label style="color: white;"><input type="radio" name="Soups">Ham and Potato Soup</label></li>
+                    <li><label style="color: white;"><input type="radio" name="Soups">Cream of Mushroom Soup</label></li>
+                    <li><label style="color: white;"><input type="radio" name="Soups">Italian Sausage Soup</label></li>
+                    <li><label style="color: white;"><input type="radio" name="Soups">Leek Soup</label></li>
+                    <li><label style="color: white;"><input type="radio" name="Soups">Other kind of soup not listed above</label></li>
+                </ul>
+            </fieldset>
+            <p>
+                <label for="name" style="color: white;">
+                    <span >Name:</span>
+                    <strong>
+                        <abbr title="your name (does not need to be your legal name)">*</abbr>
+                    </strong>
+                </label>
+                <input type="text" id="name" name="name">
+            </p>
+            <p>
+                <label for="grade" style="color: white;">What Grade are You?</label>
+                <select name="studgrade" id="grade">
+                    <option value="empty"></option>
+                    <option value="freshman">9</option>
+                    <option value="sophmore">10</option>
+                    <option value="junior">11</option>
+                    <option value="senior">12</option>
+                </select>
+            </p>
+            <p>
+                <label for="mail" style="color: white;">
+                    <span>Mail:</span>
+                    <strong>
+                        <abbr title="your school use email">*</abbr>
+                    </strong>
+                </label>
+                <input type="email" id="mail" name="useremail">
+            </p>
+            <p>
+                <label for="phone" style="color: white;">
+                    <span>Phone:</span>
+                    <strong>
+                        <abbr title="your or your parent/gaurdian's phone number">*</abbr>
+                    </strong>
+                </label>
+                <input type="number" id="phone" name="phonenumber">
+            </p>
+
+            <hr>
+            <h1 style="color: white;">Roles</h1>
+            <p>
+                <label for="role" style="color: white;">What responsibilities do you want to have in this club?</label>
+                <select name="studrole" id="role">
+                    <option value="empty"></option>
+                    <option value="souperv">Soup Supervisor (must be a junior or senior)</option> <!--must be responsible-->
+                    <option value="soup">Soup Bringer</option>
+                    <option value="cracker">Oyster Crackers Bringer</option>
+                    <option value="glutfr">Gluten Free Oyster Crackers Bringer (must be a junior or senior)</option> <!--cannot be irresposible or a prankster-->
+                </select>
+            </p>
+        </section>
+    </form>
+</main>
+</body>
+</html>
