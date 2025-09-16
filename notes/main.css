@@ -1,0 +1,28 @@
+        @import url("./secondary.css");
+        
+        html{
+            background-image: url("images/alternating-arrowhead.svg")
+        }
+        span{
+            border: 1px solid black;
+            background-color: lime;
+        }
+        .special{
+            color:darkorange;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: xx-large;
+        }
+        p{
+            color:red;
+            font-size: large;
+        }
+        p{
+            color:darkkhaki;
+            font-size: x-small;
+        }
+        .firstcar{
+           /* transform: translateX(200px); gets cancelled out*/
+            transform: scale(0.5);
+            transform: rotate(50deg);
+        }
+        

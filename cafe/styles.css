@@ -1,0 +1,31 @@
+html{
+          background-image: url("./polka-dots\ \(3\).svg")
+        }
+        h1{
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color:green;
+            text-align: center;
+        }
+        p{
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color:green;
+            text-align: center;
+        }
+        div{
+            display: flex;
+            justify-content: center;
+        }
+        footer{
+            text-align: center;
+        }
+        span{
+            color: green;
+        }
+        a{
+            color: green;
+        }
+        iframe{
+            width: 80%;
+            height: 50%;
+            border-style: white 10px; 
+        }

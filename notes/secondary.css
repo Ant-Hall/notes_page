@@ -1,0 +1,16 @@
+
+        .outer{
+            /* border: 2px solid black */
+            border-color: black;
+            border-width: 2px;
+            border-style: solid;
+
+        }
+        .box{
+            padding: 30px;
+            width:calc(90% - 60px);
+            background-color: rebeccapurple;
+            color: white;
+        }
+
+        
