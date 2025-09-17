@@ -1,5 +1,5 @@
 html{
-          background-image: url("./polka-dots\ \(3\).svg")
+          background-image: url(./images/polka-dots\ \(3\).svg)
         }
         h1{
             font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -28,4 +28,15 @@ html{
             width: 80%;
             height: 50%;
             border-style: white 10px; 
+        }
+        ul{
+           list-style-type: none;
+           color: green;
+        }
+        img{
+            width:30%
+        }
+        .long{
+            transform: translateX(110px) translateY(-100px) rotate(90deg);
+            
         }
