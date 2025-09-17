@@ -25,4 +25,25 @@
             transform: scale(0.5);
             transform: rotate(50deg);
         }
+        a{color:hotpink;}
+        a[href="https://www.west-mec.org"]{color:orange;}
+        a[href="https://www.google.com"]{color:green;}
+        a:hover{color:rebeccapurple; font-size: xx-large;}
+        
+        a:visited{
+            color:yellow
+        }
+
+        p::first-letter{
+            color:red;
+            font-size: xx-large;
+        }
+
+        div > p{color:peru}
+        /*does nothing^ becuase there are no direct children*/
+
+        footer,header,nav{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
         
