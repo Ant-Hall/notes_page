@@ -1,0 +1,22 @@
+html{
+    background-color:cornflowerblue;
+}
+
+h1{
+    font-family: fantasy;
+    font-size: xx-large;
+}
+
+div > p span {
+    color:darkblue;
+}
+
+nav {
+    font-size: larger;
+}
+
+nav > ul > li {
+    font-weight: bolder;
+}
+
+
