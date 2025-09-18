@@ -25,25 +25,53 @@
             transform: scale(0.5);
             transform: rotate(50deg);
         }
+        /*
         a{color:hotpink;}
         a[href="https://www.west-mec.org"]{color:orange;}
         a[href="https://www.google.com"]{color:green;}
         a:hover{color:rebeccapurple; font-size: xx-large;}
         
-        a:visited{
+        */ a:visited{
             color:yellow
         }
-
+        /*
         p::first-letter{
             color:red;
             font-size: xx-large;
         }
 
         div > p{color:peru}
-        /*does nothing^ becuase there are no direct children*/
+        /*does nothing^ becuase there are no direct children
 
         footer,header,nav{
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        } */
+
+        a{
+            font-family: 'Times New Roman', Times, serif;
+        }
+        
+        a[href="https://www.google.com/"]{color:red;}
+        a[href="https://www.wikipedia.org/"]{color:gray;}
+        a[href="https://www.w3schools.com/"]{color:limegreen;}
+        a[href="https://developer.mozilla.org/en-US/"]{color:lightblue;}
+        a[href="https://github.com/"]{color:green;}
+
+        a::after{
+                    content:".com";
+                    font-size: x-small;
+                }
+
+        p.special:first-letter{
+            font-family: fantasy;
+            font-size: 200%;
         }
 
+        p.special > a:visited{
+            color:0;
+        }
+
+        p.special > a:hover{
+            text-decoration: none;
+        }
         
