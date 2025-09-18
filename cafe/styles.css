@@ -1,42 +1,138 @@
 html{
-          background-image: url(./images/polka-dots\ \(3\).svg)
-        }
+     background-image: url(./images/polka-dots\ \(3\).svg)
+}
+
         h1{
             font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
             color:green;
             text-align: center;
         }
+
+        h3{
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color:green;
+            text-align: center;
+        }
+
+        h5{
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color:green;
+            text-align: center;
+            font-weight: lighter;
+        }
+
         p{
             font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
             color:green;
             text-align: center;
         }
+
         div{
             display: flex;
             justify-content: center;
         }
+
+        nav{
+            text-align: center;
+        }
+
         footer{
             text-align: center;
         }
+
         span{
             color: green;
         }
+
         a{
             color: green;
         }
+
+        a:hover{
+            font-size: x-large;
+            color: darkgreen;
+        }
+
+        #big:hover{
+            font-size: x-large;
+            color: darkgreen;
+        }
+
         iframe{
             width: 80%;
             height: 50%;
             border-style: white 10px; 
         }
+
         ul{
            list-style-type: none;
            color: green;
+           text-align: center;
         }
+        ol{
+            list-style-type: circle;
+            color: green;
+            text-align: center; 
+        }
+
+        dl{
+            color: green;
+            text-align: center;  
+        }
+
         img{
-            width:30%
+            width:30%;
         }
-        .long{
-            transform: translateX(110px) translateY(-100px) rotate(90deg);
-            
+
+
+        /*#sidews{
+            transform: translateX(185px) translateY(-150px) rotate(90deg);
+            /*dumplings
         }
+        #sidews2{
+            transform: translateX(185px) translateY(-400px) rotate(90deg);
+            /*garlicky
+        }
+        #sidews3{
+            transform: translateX(165px) translateY(-650px) rotate(90deg);
+            /*brats
+        }
+        #sidews4{
+            transform: translateX(185px) translateY(-760px) rotate(90deg);
+            /*roasted
+        }
+        #sidews5{
+            transform: translateX(185px) translateY(-770px) scale(1.5);
+            /*bacon
+        }
+        #sidews6{
+            transform: translateX(185px) translateY(-660px) rotate(90deg) scale(1.14);
+            /*coleslaw
+        }
+
+        #upr{
+            transform: translateY(-280px);
+            /*shrimp
+        }
+        #upr2{
+            transform: translateY(-530px);
+            /*Opancake
+        }
+        #upr3{
+            transform: translateY(-770px);
+            /*finnish
+        }
+        #upr4{
+            transform: translateY(-700px);
+            /*soup
+        }
+        #upr5{
+            transform: translateY(-640px);
+            /*burgers
+        }
+        #upr6{
+            transform: translateY(-660px);
+            /*buffalo
+        }
+            Edited out becuase it messed up where the text was */
+        
