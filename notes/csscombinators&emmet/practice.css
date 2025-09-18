@@ -1,22 +1,28 @@
-html{
-    background-color:cornflowerblue;
-}
-
-h1{
-    font-family: fantasy;
-    font-size: xx-large;
-}
-
 div > p span {
-    color:darkblue;
-}
-
-nav {
-    font-size: larger;
+    color:palegreen;
 }
 
 nav > ul > li {
     font-weight: bolder;
 }
+
+article > h2 + h3{
+    font-family:cursive;
+}
+
+section + p{
+    color: cadetblue;
+}
+
+footer > ul > li > a:hover{
+    font-size: xx-large;
+    color: plum;
+}
+
+div.gallery > img + span {
+    color: bisque;
+}
+
+
 
 
