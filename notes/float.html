@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            width: 90%;
+            max-width: 900px;
+            margin: 0 auto;
+            font: 1rem;
+        }
+        .box{
+            float:left;
+            width: 150px;
+            height: 100px;
+            border-radius: 5px;
+            background-color: rgb(207,232,220);
+            padding: 1em;
+        }
+        .special{
+            background-color: rgb(79,185,227);
+            padding: 10px;
+            color: #fff;
+        }
+        /*.cleared{
+            clear:left;
+        }*/
+        .wrapper{
+            background-color: rgb(79,185,227);
+            padding: 10px;
+            color: #fff;
+        }
+        .wrapper::after{
+            content:"";
+            clear:both;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <h1>Simple Float Example</h1>
+    <div class="wrapper">
+        <div class="box">Float</div>
+    </div>
+    <p class="special">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Deserunt vitae repellendus, pariatur minima voluptate veritatis!</p>
+    <p class="cleared">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+         Doloremque sint sequi animi commodi, maxime ducimus quasi aut 
+        exercitationem laudantium? Fuga, culpa consequuntur! Laudantium 
+        distinctio porro eligendi, omnis iure praesentium vel adipisci rem 
+        voluptatem quod quos odit ipsum sint sed magni.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse repellat
+         saepe sit cumque voluptatibus perferendis soluta maiores exercitationem 
+         obcaecati, nemo, amet suscipit sunt expedita fugit doloribus
+          quaerat similique. Possimus necessitatibus delectus ratione doloremque
+           laborum maxime quos asperiores rerum impedit pariatur.</p>
+    
+</body>
+</html>

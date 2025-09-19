@@ -1,0 +1,74 @@
+/*
+PX - is fixes css pixels
+EM - is relative to the elements computed font-size (usually the parent)
+REM - is relative to the root html computer font-size
+
+EM: scales from the current elements font size for example: if the parent font-size is 16px them 1.25em = 20px
+
+REM: scales from the root (device based), which means 16px = 1rem
+^preffered
+
+*/
+
+form{
+    /*Center the form on the page */
+    margin: 0 auto;
+    width: 400px;
+    /* Form outline */
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em; /*round*/
+}
+
+ul{
+   list-style-type: none;
+   padding: 0;
+   margin: 0;
+}
+
+form li+li{
+    margin-top: 1em;
+}
+
+label{
+    /* Uniform size and alignments */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+input, textarea{
+    /*to make sure that all the text fields have the same font settings by detail, textareas have a monospace font */
+    font: 1em sans-sarif;
+
+    /*Uniform text field size*/
+    width: 300px;
+    box-sizing: border-box;
+
+    /*match form borders*/
+    border: 1px solid #999;
+}
+
+input:focus, textarea:focus{
+    /*focus refers to current item clicked or has the users focus : this will add additional highlight to focused elements*/
+    border-color: #000;
+}
+
+textarea{
+    /*align multiline text feinds with their labels*/
+    vertical-align: top;
+    /*provide some space to stype some text*/
+    height: 5em;
+}
+
+button{
+    /*this extra margin reperenesnts roughlyt the same space as the space betweem the labels and their text fields */
+    margin-left: .5em;
+}
+
+.button{
+    /*align buttons with the text fields*/
+    padding-left: 90px;
+    /*same size as the label elements*/
+    
+}
