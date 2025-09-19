@@ -1,21 +1,22 @@
+/*1*/
 div > p span {
     color:palegreen;
 }
-
+/*2*/
 nav > ul > li {
     font-weight: bolder;
     color:coral;
 }
-
+/*3*/
 article > h2 ~ h3{
     font-family:cursive;
     color: red;
 }
-
+/*4*/
 section + p{
     color: cadetblue;
 }
-
+/*5*/
 footer > ul > li > a{
     color:hotpink;
 }
@@ -23,7 +24,7 @@ footer > ul > li > a:hover{
     font-size: xx-large;
     color: plum;
 }
-
+/*6*/
 div.gallery > img + span {
     color: bisque;
 }
