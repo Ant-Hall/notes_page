@@ -7,8 +7,9 @@ nav > ul > li {
     color:coral;
 }
 
-article > h2 , h3{
+article > h2 ~ h3{
     font-family:cursive;
+    color: red;
 }
 
 section + p{
