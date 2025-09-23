@@ -3,9 +3,182 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Grid Walkthrough</title>
+    <style>
+        /*basic page theme setup*/
+        :root{
+            --bg: #0f172a;
+            --card: #111827;
+            --ink: #e5e7eb;
+            --accent: #60a5fa;
+            --accent-2: #34d399;
+            --accent-3: #f59e0b;
+        }
+
+        /*custom css*/
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            margin:0;
+            font-size: 1rem;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: var(--ink);
+            background: radial-gradient(var(--accent), var(--accent-2));
+            padding: 32px;
+            display: grid;
+            place-items: start center;
+            gap:28px;
+        }
+        .wrapper{
+            /*width: min(110px, 96vw);*/
+            display: grid;
+            gap: 32px;
+        }
+        .card{
+            background-color: var(--bg);
+            border: 1px solid rgba(0, 0, 0, 0.6);
+            border-radius: 18px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+            padding: 18px 18px 22px;
+        }
+        .grid{
+            display: grid;
+            gap: 12px;
+            padding: 12px;
+            border-radius: 14px;
+            background-color: rgba(0, 0, 0, 0.3);
+            border: 1px dashed rgba(0, 0, 0, 0.15);
+        }
+        .cell{
+            display: grid;
+            place-content: center;
+            font-weight: 600;
+            background-color: rgba(0, 0, 0, 0.6);
+            border: 1px solid rgba(0, 0, 0, 0.15);
+            border-radius: 10;
+            height: 64px;
+        }
+        .demo-1 .grid{
+            grid-template-columns: 150px 1fr 2fr;
+            /*because there are no rows made they were auto created*/
+        }
+        .demo-2 .grid{
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: 80px 120px 80px;
+            /* column-gap and row-gap */
+        }
+        .demo-3 .grid{
+            grid-template-columns: 180px minmax(180px, 1fr) 2fr;
+            /*minmax() defines a size range*/
+            grid-template-rows: 90px minmax(120px, auto) 90px;
+            gap: 16px;
+        }
+        .cell1{ grid-area: header; background-color: var(--accent-3);  color:white; font-size: xx-large}
+        .cell2{ grid-area: footer; background-color: var(--accent-2);  color:white; font-size: xx-large}
+        .cell3{ grid-area: main; background-color: var(--accent);  color:white; font-size: xx-large}
+        .cell4{ grid-area: aside; background-color: rgb(255, 149, 166);  color:white; font-size: xx-large}
+        .demo-4 .grid{
+            grid-template-areas: 
+            "header header header header"
+            "main main none aside"
+            "footer footer footer footer";
+        }
+        .cell5{grid-area: header; background-color: white; border: 3px solid rebeccapurple; font-family: 'Times New Roman', Times, serif; color: black;}
+        .cell6{grid-area: main; background-color: white; border: 3px solid rebeccapurple; font-family: 'Times New Roman', Times, serif; color: black;}
+        .cell7{grid-area: nav; background-color: white; border: 3px solid rebeccapurple; font-family: 'Times New Roman', Times, serif; color: black;}
+        .cell8{grid-area: article; background-color: white; border: 3px solid rebeccapurple; font-family: 'Times New Roman', Times, serif; color: black;}
+        .cell9{grid-area: aside; background-color: white; border: 3px solid rebeccapurple; font-family: 'Times New Roman', Times, serif; color: black;}
+        .cell10{grid-area: sidebar; background-color: white; border: 3px solid rebeccapurple; font-family: 'Times New Roman', Times, serif; color: black;}
+        .cell11{grid-area: footer; background-color: white; border: 3px solid rebeccapurple; font-family: 'Times New Roman', Times, serif; color: black;}
+        .demo-5 .grid{
+            grid-template-areas: 
+            "header header header ."
+            "main main nav nav"
+            "main main article sidebar"
+            "aside . . sidebar"
+            ". footer footer footer";
+            background-color: white;
+            border-radius: 0px;
+            border: 3px solid blue;
+        }
+    </style>
 </head>
 <body>
+   <div class="wrapper">
+    <header>
+        <h1>CSS Grid Layout</h1>
+        <p class="sub">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </header>
+    <section class="card demo-1">
+        <h2>3 Column Setup</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        <div class="grid">
+            <div class="cell">1</div>
+            <div class="cell">2</div>
+            <div class="cell">3</div>
+            <div class="cell">4</div>
+            <div class="cell">5</div>
+            <div class="cell">6</div>
+            <div class="cell">7</div>
+            <div class="cell">8</div>
+            <div class="cell">9</div>
+        </div>
+    </section>
+    <section class="card demo-2">
+        <h2>3 Column Setup</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        <div class="grid">
+            <div class="cell">1</div>
+            <div class="cell">2</div>
+            <div class="cell">3</div>
+            <div class="cell">4</div>
+            <div class="cell">5</div>
+            <div class="cell">6</div>
+            <div class="cell">7</div>
+            <div class="cell">8</div>
+            <div class="cell">9</div>
+        </div>
+    </section>
+    <section class="card demo-3">
+        <h2>3 Column Setup</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        <div class="grid">
+            <div class="cell">1</div>
+            <div class="cell">2</div>
+            <div class="cell">3</div>
+            <div class="cell">4</div>
+            <div class="cell">5</div>
+            <div class="cell">6</div>
+            <div class="cell">7</div>
+            <div class="cell">8</div>
+            <div class="cell">9</div>
+        </div>
+    </section>
+    <section class="card demo-4">
+        <h2>3 Column Setup</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        <div class="grid">
+            <div class="cell1">Header</div>
+            <div class="cell2">Footer</div>
+            <div class="cell3">Main</div>
+            <div class="cell4">Aside</div>
+        </div>
+    </section>
+    <section class="card demo-5">
+        <h2>3 Column Setup</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        <div class="grid">
+            <div class="cell5">Header<img src="https://i.scdn.co/image/ab67616d00001e02020e96f4b12ac5979768cedf" alt="Cate" width="10%"></div>
+            <div class="cell6">Main<img src="https://www.boredpanda.com/blog/wp-content/uploads/2024/10/Cw3eFuEqgb8-png__880.jpg" alt="Cate" width="20%"></div>
+            <div class="cell7">Navbar<img src="https://pbs.twimg.com/media/GmKyxw1XcAAebat.jpg:large" alt="Cate" width="10%"></div>
+            <div class="cell8">Article<img src="https://i1.sndcdn.com/artworks-Tv8GPoDybgPxybY7-3EE3jQ-t500x500.jpg" alt="Cate" width="20%"></div>
+            <div class="cell9">Aside<img src="https://i.pinimg.com/736x/ef/aa/85/efaa85262c2979c0bce49d0dc643d49e.jpg" alt="Cate" width="20%"></div>
+            <div class="cell10">Sidebar<img src="https://i.redd.it/9frjxiht4ehe1.jpeg" alt="Cate" width="20%"></div>
+            <div class="cell11">Footer<img src="https://www.boredpanda.com/blog/wp-content/uploads/2025/02/459204270_981877377284850_2933942690201179015_n-67a2354579d23__700.jpg" alt="Cate" width="10%"></div>
+        </div>
+    </section>
     
+   </div> 
 </body>
 </html>
