@@ -1,0 +1,30 @@
+.grid{
+    display: grid;
+    border: 10px solid black;
+    border-radius: 10px;
+}
+.cell1{grid-area: header; background-color: lightgoldenrodyellow; 
+border: 2px solid rgba(0, 0, 0, 0.50);}
+.cell2{grid-area: nav; background-color: lightgoldenrodyellow; 
+border: 2px solid rgba(0, 0, 0, 0.50); height: 20rem;}
+.cell3{grid-area: main; background-color: lightgoldenrodyellow; 
+border: 2px solid rgba(0, 0, 0, 0.50); height: 20rem;}
+.cell4{grid-area: aside; background-color: lightgoldenrodyellow; 
+border: 2px solid rgba(0, 0, 0, 0.50); height: 20rem;}
+.cell5{grid-area: footer; background-color: lightgoldenrodyellow; 
+border: 2px solid rgba(0, 0, 0, 0.50);}
+
+div.wrapper{
+    display: grid;
+    gap: 32px;
+    margin: 5rem;
+    justify-content: center;
+}
+div.grid{
+    grid-template-areas: 
+    "header header header"
+    "nav main aside"
+    "footer footer footer";
+    font-size: xx-large;
+    width: 100rem;
+}
