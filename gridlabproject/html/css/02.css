@@ -1,0 +1,26 @@
+html{
+    background-color: lightsalmon;
+}
+div.hero{
+    background-image: url(https://www.boredpanda.com/blog/wp-content/uploads/2024/10/Cw3eFuEqgb8-png__880.jpg?utm_campaign=rebelboost_true);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40rem;
+    justify-items: stretch;
+    border: 50px solid lightgoldenrodyellow;
+    border-radius: 50rem;
+}
+p{
+    text-align: center;
+    color: lightgoldenrodyellow;
+    font-family: cursive;
+    font-size: xx-large;
+}
+.sidebar{
+    margin: 5rem;
+    padding: 5rem;
+    background-color: lightgoldenrodyellow;
+    border-radius: 50rem;
+    height: 100%;
+    position: sticky;
+}
