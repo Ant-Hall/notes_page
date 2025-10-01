@@ -1,0 +1,12 @@
+div.surround{
+    border: 20px solid black;
+    border-radius: 20rem;
+}
+img.left{
+    border-top-left-radius: 20rem;
+    border-bottom-left-radius: 20rem;
+}
+img.right{
+    border-top-right-radius: 20rem;
+    border-bottom-right-radius: 20rem;
+}

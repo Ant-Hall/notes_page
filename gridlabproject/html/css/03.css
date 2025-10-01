@@ -1,0 +1,23 @@
+.grid{
+    margin-top:10rem;
+    margin-left: 9rem;
+    display: grid;
+    gap: 3rem;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: repeat(4,1fr) minmax(100px, 100px);
+}
+.card{
+    border: 40px solid black;
+    border-radius: 20rem;
+    color: black;
+    font-size: x-small;
+    background-color: lightgoldenrodyellow;
+}
+img{
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    border: 20px solid lightgoldenrodyellow;
+    border-radius: 20rem;
+}
