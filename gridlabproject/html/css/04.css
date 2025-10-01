@@ -1,12 +1,28 @@
 div.surround{
+    display: grid;
     border: 20px solid black;
     border-radius: 20rem;
+    justify-items: center;
+    background-color: black;
 }
 img.left{
     border-top-left-radius: 20rem;
     border-bottom-left-radius: 20rem;
+    grid-column: 1/1;
+    grid-row: 1/1;
 }
 img.right{
     border-top-right-radius: 20rem;
     border-bottom-right-radius: 20rem;
+    grid-column: 2/2;
+    grid-row: 1/1;
+}
+div.button{
+}
+button{
+    width: 15rem;
+    height: 8rem;
+    background-color: lightgoldenrodyellow;
+    border-radius: 20rem;
+    border: 20px solid black;
 }
