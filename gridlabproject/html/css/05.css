@@ -1,0 +1,80 @@
+html{
+    background-color: rgb(193, 123, 98);
+}
+div.wrapper{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    border: 10px solid black;
+    border-radius: 1rem;
+    background-color: lightsalmon;
+    margin: 8rem;
+    justify-content: center;
+    max-width: 2000px;
+    max-height: 500px;
+}
+.cell1{margin:1rem; padding:1rem; border:2px solid black; border-radius:1rem; background-color: lightgoldenrodyellow; max-width: 150px;}
+.cell2{margin:1rem; padding:1rem; border:2px solid black; border-radius:1rem; background-color: lightgoldenrodyellow; max-width: 150px;}
+.cell3{margin:1rem; padding:1rem; border:2px solid black; border-radius:1rem; background-color: lightgoldenrodyellow; max-width: 150px;}
+.cell4{margin:1rem; padding:1rem; border:2px solid black; border-radius:1rem; background-color: lightgoldenrodyellow; max-width: 150px;}
+.cell5{margin:1rem; padding:1rem; border:2px solid black; border-radius:1rem; background-color: lightgoldenrodyellow; max-width: 150px;}
+.cell6{margin:1rem; padding:1rem; border:2px solid black; border-radius:1rem; background-color: lightgoldenrodyellow; max-width: 150px;}
+.cell7{margin:1rem; padding:1rem; border:2px solid black; border-radius:1rem; background-color: lightgoldenrodyellow; max-width: 150px;}
+.cell8{margin:1rem; padding:1rem; border:2px solid black; border-radius:1rem; background-color: lightgoldenrodyellow; max-width: 150px;}
+.cell9{margin:1rem; padding:1rem; border:2px solid black; border-radius:1rem; background-color: lightgoldenrodyellow; max-width: 150px;}
+.cell10{margin:1rem; padding:1rem; border:2px solid black; border-radius:1rem; background-color: lightgoldenrodyellow; max-width: 150px;}
+.cell11{margin:1rem; padding:1rem; border:2px solid black; border-radius:1rem; background-color: lightgoldenrodyellow; max-width: 150px;}
+.cell12{margin:1rem; padding:1rem; border:2px solid black; border-radius:1rem; background-color: lightgoldenrodyellow; max-width: 150px;}
+.cell13{margin:1rem; padding:1rem; border:2px solid black; border-radius:1rem; background-color: lightgoldenrodyellow; max-width: 150px;}
+.cell14{margin:1rem; padding:1rem; border:2px solid black; border-radius:1rem; background-color: lightgoldenrodyellow; max-width: 150px;}
+.cell15{margin:1rem; padding:1rem; border:2px solid black; border-radius:1rem; background-color: lightgoldenrodyellow; max-width: 150px;}
+.cell16{margin:1rem; padding:1rem; border:2px solid black; border-radius:1rem; background-color: lightgoldenrodyellow; max-width: 150px;}
+.cell17{margin:1rem; padding:1rem; border:2px solid black; border-radius:1rem; background-color: lightgoldenrodyellow; max-width: 150px;}
+.cell18{margin:1rem; padding:1rem; border:2px solid black; border-radius:1rem; background-color: lightgoldenrodyellow; max-width: 150px;}
+.cell19{margin:1rem; padding:1rem; border:2px solid black; border-radius:1rem; background-color: lightgoldenrodyellow; max-width: 150px;}
+.cell20{margin:1rem; padding:1rem; border:2px solid black; border-radius:1rem; background-color: lightgoldenrodyellow; max-width: 150px;}
+.cell21{margin:1rem; padding:1rem; border:2px solid black; border-radius:1rem; background-color: lightgoldenrodyellow; max-width: 150px;}
+.cell22{margin:1rem; padding:1rem; border:2px solid black; border-radius:1rem; background-color: lightgoldenrodyellow; max-width: 150px;}
+.cell23{margin:1rem; padding:1rem; border:2px solid black; border-radius:1rem; background-color: lightgoldenrodyellow; max-width: 150px;}
+.cell24{margin:1rem; padding:1rem; border:2px solid black; border-radius:1rem; background-color: lightgoldenrodyellow; max-width: 150px;}
+.cell25{margin:1rem; padding:1rem; border:2px solid black; border-radius:1rem; background-color: lightgoldenrodyellow; max-width: 150px;}
+.cell26{margin:1rem; padding:1rem; border:2px solid black; border-radius:1rem; background-color: lightgoldenrodyellow; max-width: 150px;}
+.cell27{margin:1rem; padding:1rem; border:2px solid black; border-radius:1rem; background-color: lightgoldenrodyellow; max-width: 150px;}
+.cell28{margin:1rem; padding:1rem; border:2px solid black; border-radius:1rem; background-color: lightgoldenrodyellow; max-width: 150px;}
+.cell29{margin:1rem; padding:1rem; border:2px solid black; border-radius:1rem; background-color: lightgoldenrodyellow; max-width: 150px;}
+.cell30{margin:1rem; padding:1rem; border:2px solid black; border-radius:1rem; background-color: lightgoldenrodyellow; max-width: 150px;}
+.cell31{margin:1rem; padding:1rem; border:2px solid rgba(0, 0, 0, 0.3); border-radius:1rem; background-color: rgba(250, 250, 210, 0.3); color:rgba(0, 0, 0, 0.3); max-width: 150px;}
+.cell32{margin:1rem; padding:1rem; border:2px solid rgba(0, 0, 0, 0.3); border-radius:1rem; background-color: rgba(250, 250, 210, 0.3); color:rgba(0, 0, 0, 0.3); max-width: 150px;}
+.cell33{margin:1rem; padding:1rem; border:2px solid rgba(0, 0, 0, 0.3); border-radius:1rem; background-color: rgba(250, 250, 210, 0.3); color:rgba(0, 0, 0, 0.3); max-width: 150px;}
+.cell34{margin:1rem; padding:1rem; border:2px solid rgba(0, 0, 0, 0.3); border-radius:1rem; background-color: rgba(250, 250, 210, 0.3); color:rgba(0, 0, 0, 0.3); max-width: 150px;}
+.cell35{margin:1rem; padding:1rem; border:2px solid rgba(0, 0, 0, 0.3); border-radius:1rem; background-color: rgba(250, 250, 210, 0.3); color:rgba(0, 0, 0, 0.3); max-width: 150px;}
+
+.cell1:hover::after{transform: scale(300%); width: 200px; height: 90px; content: "  Activities planned for this day: Go Swimming, get lunch with friends.";}
+.cell2:hover::after{transform: scale(300%); width: 200px; height: 90px; content: "  Activities planned for this day: Buy festival tickets";}
+.cell3:hover::after{transform: scale(300%); width: 200px; height: 90px; content: "  Activities planned for this day: Play DND, go to the festival";}
+.cell4:hover::after{transform: scale(300%); width: 200px; height: 90px; content: "  Activities planned for this day:";}
+.cell5:hover::after{transform: scale(300%); width: 200px; height: 90px; content: "  Activities planned for this day:";}
+.cell6:hover::after{transform: scale(300%); width: 200px; height: 90px; content: "  Activities planned for this day:";}
+.cell7:hover::after{transform: scale(300%); width: 200px; height: 90px; content: "  Activities planned for this day:";}
+.cell8:hover::after{transform: scale(300%); width: 200px; height: 90px; content: "  Activities planned for this day:";}
+.cell9:hover::after{transform: scale(300%); width: 200px; height: 90px; content: "  Activities planned for this day:";}
+.cell10:hover::after{transform: scale(300%); width: 200px; height: 90px; content: "  Activities planned for this day:";}
+.cell11:hover::after{transform: scale(300%); width: 200px; height: 90px; content: "  Activities planned for this day:";}
+.cell12:hover::after{transform: scale(300%); width: 200px; height: 90px; content: "  Activities planned for this day:";}
+.cell13:hover::after{transform: scale(300%); width: 200px; height: 90px; content: "  Activities planned for this day:";}
+.cell14:hover::after{transform: scale(300%); width: 200px; height: 90px; content: "  Activities planned for this day:";}
+.cell15:hover::after{transform: scale(300%); width: 200px; height: 90px; content: "  Activities planned for this day:";}
+.cell16:hover::after{transform: scale(300%); width: 200px; height: 90px; content: "  Activities planned for this day:";}
+.cell17:hover::after{transform: scale(300%); width: 200px; height: 90px; content: "  Activities planned for this day:";}
+.cell18:hover::after{transform: scale(300%); width: 200px; height: 90px; content: "  Activities planned for this day:";}
+.cell19:hover::after{transform: scale(300%); width: 200px; height: 90px; content: "  Activities planned for this day:";}
+.cell20:hover::after{transform: scale(300%); width: 200px; height: 90px; content: "  Activities planned for this day:";}
+.cell21:hover::after{transform: scale(300%); width: 200px; height: 90px; content: "  Activities planned for this day:";}
+.cell22:hover::after{transform: scale(300%); width: 200px; height: 90px; content: "  Activities planned for this day:";}
+.cell23:hover::after{transform: scale(300%); width: 200px; height: 90px; content: "  Activities planned for this day:";}
+.cell24:hover::after{transform: scale(300%); width: 200px; height: 90px; content: "  Activities planned for this day:";}
+.cell25:hover::after{transform: scale(300%); width: 200px; height: 90px; content: "  Activities planned for this day:";}
+.cell26:hover::after{transform: scale(300%); width: 200px; height: 90px; content: "  Activities planned for this day:";}
+.cell27:hover::after{transform: scale(300%); width: 200px; height: 90px; content: "  Activities planned for this day:";}
+.cell28:hover::after{transform: scale(300%); width: 200px; height: 90px; content: "  Activities planned for this day:";}
+.cell29:hover::after{transform: scale(300%); width: 200px; height: 90px; content: "  Activities planned for this day:";}
+.cell30:hover::after{transform: scale(300%); width: 200px; height: 90px; content: "  Activities planned for this day:";}

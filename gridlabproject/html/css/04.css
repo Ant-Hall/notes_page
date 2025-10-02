@@ -18,11 +18,31 @@ img.right{
     grid-row: 1/1;
 }
 div.button{
+    text-align: center;
 }
 button{
-    width: 15rem;
+    width: 20rem;
     height: 8rem;
     background-color: lightgoldenrodyellow;
     border-radius: 20rem;
     border: 20px solid black;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+button:hover{
+    background-color: plum;
+    font-size: xxx-large;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+p{
+    text-align: center;
+    padding-left: 20rem;
+    padding-right: 20rem;
+    font-size: xx-large;
+}
+span:hover{
+    font-size: xxx-large;
 }
