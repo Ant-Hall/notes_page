@@ -7,10 +7,12 @@ div.wrapper{
     border: 10px solid black;
     border-radius: 1rem;
     background-color: lightsalmon;
-    margin: 8rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    margin-bottom: 8rem;
     justify-content: center;
     max-width: 2000px;
-    max-height: 500px;
+    max-height: 600px;
 }
 .cell1{margin:1rem; padding:1rem; border:2px solid black; border-radius:1rem; background-color: lightgoldenrodyellow; max-width: 150px;}
 .cell2{margin:1rem; padding:1rem; border:2px solid black; border-radius:1rem; background-color: lightgoldenrodyellow; max-width: 150px;}
@@ -48,33 +50,33 @@ div.wrapper{
 .cell34{margin:1rem; padding:1rem; border:2px solid rgba(0, 0, 0, 0.3); border-radius:1rem; background-color: rgba(250, 250, 210, 0.3); color:rgba(0, 0, 0, 0.3); max-width: 150px;}
 .cell35{margin:1rem; padding:1rem; border:2px solid rgba(0, 0, 0, 0.3); border-radius:1rem; background-color: rgba(250, 250, 210, 0.3); color:rgba(0, 0, 0, 0.3); max-width: 150px;}
 
-.cell1:hover::after{transform: scale(300%); width: 200px; height: 90px; content: "  Activities planned for this day: Go Swimming, get lunch with friends.";}
-.cell2:hover::after{transform: scale(300%); width: 200px; height: 90px; content: "  Activities planned for this day: Buy festival tickets";}
-.cell3:hover::after{transform: scale(300%); width: 200px; height: 90px; content: "  Activities planned for this day: Play DND, go to the festival";}
-.cell4:hover::after{transform: scale(300%); width: 200px; height: 90px; content: "  Activities planned for this day:";}
-.cell5:hover::after{transform: scale(300%); width: 200px; height: 90px; content: "  Activities planned for this day:";}
-.cell6:hover::after{transform: scale(300%); width: 200px; height: 90px; content: "  Activities planned for this day:";}
-.cell7:hover::after{transform: scale(300%); width: 200px; height: 90px; content: "  Activities planned for this day:";}
-.cell8:hover::after{transform: scale(300%); width: 200px; height: 90px; content: "  Activities planned for this day:";}
-.cell9:hover::after{transform: scale(300%); width: 200px; height: 90px; content: "  Activities planned for this day:";}
-.cell10:hover::after{transform: scale(300%); width: 200px; height: 90px; content: "  Activities planned for this day:";}
-.cell11:hover::after{transform: scale(300%); width: 200px; height: 90px; content: "  Activities planned for this day:";}
-.cell12:hover::after{transform: scale(300%); width: 200px; height: 90px; content: "  Activities planned for this day:";}
-.cell13:hover::after{transform: scale(300%); width: 200px; height: 90px; content: "  Activities planned for this day:";}
-.cell14:hover::after{transform: scale(300%); width: 200px; height: 90px; content: "  Activities planned for this day:";}
-.cell15:hover::after{transform: scale(300%); width: 200px; height: 90px; content: "  Activities planned for this day:";}
-.cell16:hover::after{transform: scale(300%); width: 200px; height: 90px; content: "  Activities planned for this day:";}
-.cell17:hover::after{transform: scale(300%); width: 200px; height: 90px; content: "  Activities planned for this day:";}
-.cell18:hover::after{transform: scale(300%); width: 200px; height: 90px; content: "  Activities planned for this day:";}
-.cell19:hover::after{transform: scale(300%); width: 200px; height: 90px; content: "  Activities planned for this day:";}
-.cell20:hover::after{transform: scale(300%); width: 200px; height: 90px; content: "  Activities planned for this day:";}
-.cell21:hover::after{transform: scale(300%); width: 200px; height: 90px; content: "  Activities planned for this day:";}
-.cell22:hover::after{transform: scale(300%); width: 200px; height: 90px; content: "  Activities planned for this day:";}
-.cell23:hover::after{transform: scale(300%); width: 200px; height: 90px; content: "  Activities planned for this day:";}
-.cell24:hover::after{transform: scale(300%); width: 200px; height: 90px; content: "  Activities planned for this day:";}
-.cell25:hover::after{transform: scale(300%); width: 200px; height: 90px; content: "  Activities planned for this day:";}
-.cell26:hover::after{transform: scale(300%); width: 200px; height: 90px; content: "  Activities planned for this day:";}
-.cell27:hover::after{transform: scale(300%); width: 200px; height: 90px; content: "  Activities planned for this day:";}
-.cell28:hover::after{transform: scale(300%); width: 200px; height: 90px; content: "  Activities planned for this day:";}
-.cell29:hover::after{transform: scale(300%); width: 200px; height: 90px; content: "  Activities planned for this day:";}
-.cell30:hover::after{transform: scale(300%); width: 200px; height: 90px; content: "  Activities planned for this day:";}
+.cell1:hover::after{transform: scale(300%); width: 200px; height: 90px; content: "  Activities planned for this day: Go Swimming, get lunch with Cheryl.";}
+.cell2:hover::after{transform: scale(300%); width: 200px; height: 90px; content: "  Activities planned for this day: Buy festival tickets.";}
+.cell3:hover::after{transform: scale(300%); width: 200px; height: 90px; content: "  Activities planned for this day: Play DND, go to the festival.";}
+.cell4:hover::after{transform: scale(300%); width: 200px; height: 90px; content: "  Activities planned for this day: Nothing.";}
+.cell5:hover::after{transform: scale(300%); width: 200px; height: 90px; content: "  Activities planned for this day: Breakfast at Brian's.";}
+.cell6:hover::after{transform: scale(300%); width: 200px; height: 90px; content: "  Activities planned for this day: Go to Gym.";}
+.cell7:hover::after{transform: scale(300%); width: 200px; height: 90px; content: "  Activities planned for this day: Chester's son's funeral.";}
+.cell8:hover::after{transform: scale(300%); width: 200px; height: 90px; content: "  Activities planned for this day: Nothing.";}
+.cell9:hover::after{transform: scale(300%); width: 200px; height: 90px; content: "  Activities planned for this day: Buy Worstershire Sauce and look for a ring.";}
+.cell10:hover::after{transform: scale(300%); width: 200px; height: 90px; content: "  Activities planned for this day: Go book shopping.";}
+.cell11:hover::after{transform: scale(300%); width: 200px; height: 90px; content: "  Activities planned for this day: Herbert's Birthday.";}
+.cell12:hover::after{transform: scale(300%); width: 200px; height: 90px; content: "  Activities planned for this day: Thrift with Herbert.";}
+.cell13:hover::after{transform: scale(300%); width: 200px; height: 90px; content: "  Activities planned for this day: Go to Gym.";}
+.cell14:hover::after{transform: scale(300%); width: 200px; height: 90px; content: "  Activities planned for this day: Nothing.";}
+.cell15:hover::after{transform: scale(300%); width: 200px; height: 90px; content: "  Activities planned for this day: Schedule dentist appointment.";}
+.cell16:hover::after{transform: scale(300%); width: 200px; height: 90px; content: "  Activities planned for this day: Go to the dog park with Laura and Chester.";}
+.cell17:hover::after{transform: scale(300%); width: 200px; height: 90px; content: "  Activities planned for this day: Nothing.";}
+.cell18:hover::after{transform: scale(300%); width: 200px; height: 90px; content: "  Activities planned for this day: Buy Universal Studios theme park tickets.";}
+.cell19:hover::after{transform: scale(300%); width: 200px; height: 90px; content: "  Activities planned for this day: Go to Gym.";}
+.cell20:hover::after{transform: scale(300%); width: 200px; height: 90px; content: "  Activities planned for this day: Call Herbert, go to the park and prepare for the following days.";}
+.cell21:hover::after{transform: scale(300%); width: 200px; height: 90px; content: "  Activities planned for this day: Propose to Herbert in the IHOP parking lot.";}
+.cell22:hover::after{transform: scale(300%); width: 200px; height: 90px; content: "  Activities planned for this day: Go to Universal Studios theme park with Herbert.";}
+.cell23:hover::after{transform: scale(300%); width: 200px; height: 90px; content: "  Activities planned for this day: Go to a pet shelter with Herbert to get a cat.";}
+.cell24:hover::after{transform: scale(300%); width: 200px; height: 90px; content: "  Activities planned for this day: Plan wedding (do not invite Cheryl or Keegan).";}
+.cell25:hover::after{transform: scale(300%); width: 200px; height: 90px; content: "  Activities planned for this day: Continue wedding planning.";}
+.cell26:hover::after{transform: scale(300%); width: 200px; height: 90px; content: "  Activities planned for this day: Continue wedding planning, set a specific date.";}
+.cell27:hover::after{transform: scale(300%); width: 200px; height: 90px; content: "  Activities planned for this day: Dentist appointment.";}
+.cell28:hover::after{transform: scale(300%); width: 200px; height: 90px; content: "  Activities planned for this day: Go to Gym.";}
+.cell29:hover::after{transform: scale(300%); width: 200px; height: 90px; content: "  Activities planned for this day: Nothing";}
+.cell30:hover::after{transform: scale(300%); width: 200px; height: 90px; content: "  Activities planned for this day: Attend convention with Herbert, Chester and Laura.";}
