@@ -1,0 +1,56 @@
+html{
+    background-color: rgb(34, 50, 67);
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: var(--text);
+}
+:root{
+    --bg:url(./diamond-sunset\ \(1\).svg);
+    --acc:;
+    --text:rgb(34, 50, 67);
+}
+body{
+    border: 10px solid;
+    border-radius: 5rem;
+    background-image: var(--bg);
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+div.top{
+    display: flex;
+    grid-template-areas: "div div";
+    border: 3px solid black;
+    border-radius: 2rem;
+}
+div.hero{
+    background-image: url(https://tinyurl.com/ycrxxtzj);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid black;
+    border-radius: 2rem;
+    width: 12rem;
+    height: 10rem;
+    align-self: center;
+    transform: translateX(3rem);
+   
+}
+div.byhero{
+    align-content: center;
+    padding-left: 8rem;
+    padding-right: 5rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    font-size: x-large;
+}
+div.under{
+    margin-top: 1rem;
+    margin-right: -3rem;
+    margin-left: -3rem;
+    border:  3px solid black;
+    border-radius: 2rem;
+}
+div.flex{
+    display: flex;
+}
