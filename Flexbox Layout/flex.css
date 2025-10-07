@@ -1,40 +1,43 @@
 html{
-    background-color: rgb(34, 50, 67);
+    background-color: rgb(29, 57, 87);
     justify-content: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: var(--text);
+    max-width: 1200px;
 }
 :root{
     --bg:url(./diamond-sunset\ \(1\).svg);
-    --acc:;
+    --acc:black;
     --text:rgb(34, 50, 67);
 }
 body{
-    border: 10px solid;
+    border: 10px solid var(--acc);
     border-radius: 5rem;
     background-image: var(--bg);
     padding-left: 5rem;
     padding-right: 5rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
+    width: 60rem;
 }
 div.top{
     display: flex;
     grid-template-areas: "div div";
-    border: 3px solid black;
+    border: 3px solid var(--acc);
     border-radius: 2rem;
 }
 div.hero{
     background-image: url(https://tinyurl.com/ycrxxtzj);
     background-repeat: no-repeat;
     background-size: cover;
-    border: 2px solid black;
+    border: 2px solid var(--acc);
     border-radius: 2rem;
-    width: 12rem;
-    height: 10rem;
+    max-width: 12rem;
+    min-width: 12rem;
+    max-height: 10rem;
+    min-height: 10rem;
     align-self: center;
     transform: translateX(3rem);
-   
 }
 div.byhero{
     align-content: center;
@@ -43,14 +46,95 @@ div.byhero{
     padding-top: 5rem;
     padding-bottom: 5rem;
     font-size: x-large;
+    
 }
 div.under{
     margin-top: 1rem;
     margin-right: -3rem;
     margin-left: -3rem;
-    border:  3px solid black;
+    display: flex;
+    flex-direction: row;
+}
+aside{
+    border: 3px solid var(--acc);
     border-radius: 2rem;
+    margin: 1rem;
+    padding: 1rem;
+    flex: 8 1 300px;
+    max-width: 200px;
 }
 div.flex{
+    border: 3px solid var(--acc);
+    border-radius: 2rem;
+    margin: 1rem;
+    padding: 1rem;
+    max-width: 50rem;
+}
+article{
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.cell1{
+    border: 2px solid var(--acc);
+    border-radius: 2rem;
+    background-color: var(--bg);
+    margin: .5rem;
+    flex: 1 1 300px;
+    height: 15rem;
+    width: 15rem;
+    flex-basis: 300px;
+}
+.cell2{
+    border: 2px solid var(--acc);
+    border-radius: 2rem;
+    background-color: var(--bg);
+    margin: .5rem;
+    flex: 1 1 300px;
+    height: 20rem;
+    width: 15rem;
+}
+.cell3{
+    border: 2px solid var(--acc);
+    border-radius: 2rem;
+    background-color: var(--bg);
+    margin: .5rem;
+    flex: 1 1 300px;
+    height: 15rem;
+    width: 15rem;
+    align-self: flex-start;
+}
+.cell4{
+    border: 2px solid var(--acc);
+    border-radius: 2rem;
+    background-color: var(--bg);
+    margin: .5rem;
+    flex: 1 1 300px;
+    height: 15rem;
+    width: 15rem;
+    flex-wrap: wrap;
+    gap: 10rem;
+}
+.cell5{
+    border: 2px solid var(--acc);
+    border-radius: 2rem;
+    background-color: var(--bg);
+    margin: .5rem;
+    flex: 1 1 300px;
+    height: 15rem;
+    width: 15rem;
+
+}
+.cell6{
+    border: 2px solid var(--acc);
+    border-radius: 2rem;
+    background-color: var(--bg);
+    margin: .5rem;
+    flex: 1 1 300px;
+    height: 15rem;
+    max-width: 1024px;
+    min-width: 1440px;
+}
+footer{
+
 }
